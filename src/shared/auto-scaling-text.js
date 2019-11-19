@@ -11,7 +11,7 @@ class AutoScalingText extends React.Component {
     const node = this.node.current
     debugger
     if (!node) {
-      return 1
+      return 2
     }
     const parentNode = node.parentNode
 
