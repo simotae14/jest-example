@@ -1,3 +1,4 @@
+/* eslint-disable no-import-assign */
 import React from 'react'
 import ReactDOMServer from 'react-dom/server'
 import loadable from 'react-loadable'

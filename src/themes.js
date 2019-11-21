@@ -1,3 +1,4 @@
+/* eslint-disable no-import-assign */
 export const dark = {
     displayTextColor: 'white',
     displayBackgroundColor: '#1c191c',

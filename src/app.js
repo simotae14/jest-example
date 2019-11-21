@@ -1,3 +1,5 @@
+/* eslint-disable no-import-assign */
+/* eslint-disable import/namespace */
 import React from 'react'
 import {ThemeProvider} from 'emotion-theming'
 import Calculator from './calculator'

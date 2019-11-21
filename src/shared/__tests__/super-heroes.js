@@ -1,3 +1,4 @@
+/* eslint-disable no-import-assign */
 import {getFlyingSuperHeros} from '../super-heros'
 
 test('returns super heros that can fly', () => {

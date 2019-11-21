@@ -1,3 +1,4 @@
+/* eslint-disable no-import-assign */
 module.exports = {
   ...require('./test/jest-common'),
   collectCoverageFrom: ['**/src/**/*.js'],
@@ -15,6 +16,9 @@ module.exports = {
       lines: 100,
     },
   },
-  projects: ['./test/jest.client.js', './test/jest.server.js'],
-  
+  projects: [
+    './test/jest.lint.js',
+    './test/jest.client.js',
+    './test/jest.server.js',
+  ],  
 }

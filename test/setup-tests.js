@@ -1,3 +1,4 @@
+/* eslint-disable no-import-assign */
 import 'react-testing-library/cleanup-after-each'
 
 // add jest-emotion serializer

@@ -1,3 +1,5 @@
+/* eslint-disable no-import-assign */
+/* eslint-disable no-debugger */
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './auto-scaling-text.module.css'

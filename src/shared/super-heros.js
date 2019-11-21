@@ -1,3 +1,4 @@
+/* eslint-disable no-import-assign */
 const superHeros = [
   {name: 'Dynaguy', powers: ['disintegration ray', 'fly']},
   {name: 'Apogee', powers: ['gravity control', 'fly']},

@@ -1,3 +1,4 @@
+/* eslint-disable no-import-assign */
 import React from 'react'
 import { render } from 'calculator-test-utils';
 import CalculatorDisplay from '../calculator-display'

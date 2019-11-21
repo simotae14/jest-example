@@ -1,3 +1,5 @@
+/* eslint-disable no-import-assign */
+/* eslint-disable import/no-extraneous-dependencies */
 const path = require('path')
 
 module.exports = {

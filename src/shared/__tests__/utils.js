@@ -1,3 +1,4 @@
+/* eslint-disable no-import-assign */
 import { getFormattedValue } from '../utils';
 
 test('formats the value', () => {

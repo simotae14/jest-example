@@ -1,9 +1,11 @@
+/* eslint-disable no-import-assign */
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'react-emotion'
 import AutoScalingText from './auto-scaling-text'
 import {getFormattedValue} from './utils'
 
+// eslint-disable-next-line no-unused-vars
 const DisplayContainer = styled.div(({theme}) => ({
   color: theme.displayTextColor,
   background: theme.displayBackgroundColor,

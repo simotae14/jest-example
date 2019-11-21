@@ -1,3 +1,4 @@
+/* eslint-disable no-import-assign */
 module.exports = {
   ...require('./jest-common'),
   displayName: 'dom',

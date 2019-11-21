@@ -1,3 +1,4 @@
+/* eslint-disable no-import-assign */
 function getFormattedValue(value, language = 'en-US') {
   let formattedValue = parseFloat(value).toLocaleString(language, {
     useGrouping: true,

@@ -1,3 +1,4 @@
+/* eslint-disable no-import-assign */
 import React from 'react'
 import PointTarget from 'react-point'
 import loadable from 'react-loadable'

@@ -1,3 +1,4 @@
+/* eslint-disable no-import-assign */
 import React from 'react'
 import {render} from 'react-testing-library'
 import {ThemeProvider} from 'emotion-theming'
