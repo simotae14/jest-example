@@ -15,7 +15,8 @@
     "lint": "eslint .",
     "format": "prettier \"**/*.js\" --write",
     "validate": "npm run lint && npm run test && npm run build",
-    "setup": "npm run setup && npm run validate"
+    "setup": "npm run setup && npm run validate",
+    "precommit": "lint-staged"
   },
   "keywords": [],
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
@@ -37,6 +38,7 @@
     "eslint-config-kentcdodds": "^14.0.0",
     "eslint-import-resolver-jest": "^2.1.2",
     "file-loader": "^1.1.11",
+    "husky": "^0.14.3",
     "identity-obj-proxy": "^3.0.0",
     "is-ci-cli": "^1.1.1",
     "jest": "^23.2.0",
@@ -44,6 +46,7 @@
     "jest-runner-eslint": "^0.7.5",
     "jest-watch-select-projects": "^1.0.0",
     "jest-watch-typeahead": "^0.1.0",
+    "lint-staged": "^7.2.0",
     "prettier": "^1.13.7",
     "prop-types": "^15.6.2",
     "react-testing-library": "^4.0.2",
