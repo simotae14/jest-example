@@ -33,6 +33,7 @@
     "babel-plugin-dynamic-import-node": "^2.0.0",
     "babel-plugin-emotion": "^9.2.4",
     "css-loader": "^0.28.11",
+    "cypress": "^3.1.0",
     "emotion-theming": "^9.2.4",
     "eslint": "^5.0.1",
     "eslint-config-kentcdodds": "^14.0.0",
