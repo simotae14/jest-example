@@ -12,6 +12,7 @@ const DisplayContainer = styled.div(({theme}) => ({
   lineHeight: '130px',
   fontSize: '6em',
   flex: '1',
+  position: 'relative',
 }))
 
 class CalculatorDisplay extends React.Component {
@@ -26,21 +27,9 @@ class CalculatorDisplay extends React.Component {
     )
 
     return (
-      <div
-        id="hi"
-        {...props}
-        css={{
-          color: 'white',
-          background: '#1c191c',
-          lineHeight: '130px',
-          fontSize: '6em',
-          flex: '1',
-        }}
-      >
-        <span>
-          <AutoScalingText>{formattedValue}</AutoScalingText>
-        </span>      
-      </div>
+      <DisplayContainer {...props}>
+        <AutoScalingText>{formattedValue}</AutoScalingText>
+      </DisplayContainer>
     )
   }
 }
